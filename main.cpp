@@ -1,4 +1,6 @@
 #include <igl/viewer/Viewer.h>
+#include <igl/opengl2/draw_mesh.h>
+#include <igl/opengl2/draw_floor.h>
 
 int main(int argc, char *argv[])
 {
@@ -25,7 +27,7 @@ int main(int argc, char *argv[])
 	  1,6,2,
 	  2,6,8,
 	  2,8,4).finished().array()-1;
-
+	
 	// Plot the mesh
 	igl::viewer::Viewer viewer;
 	viewer.data.set_mesh(V, F);
