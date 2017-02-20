@@ -1,6 +1,5 @@
 #include <igl/viewer/Viewer.h>
-#include <igl/opengl2/draw_mesh.h>
-#include <igl/opengl2/draw_floor.h>
+
 
 int main(int argc, char *argv[])
 {
